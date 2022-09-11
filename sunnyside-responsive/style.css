@@ -23,11 +23,6 @@ body {
   padding: 1.5rem;
 }
 
-.hamburger {
-  display: none;
-  cursor: pointer;
-}
-
 .buttons {
   display: flex;
   gap: 2rem;
@@ -354,38 +349,8 @@ footer .social i:hover {
     font-size: 1.2rem;
   }
 
-  .hamburger {
-    display: block;
-  }
-
-  .hamburger.active .navbar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .buttons {
-    position: absolute;
-    right: -100%;
-    top: 70px;
-    padding: 1.5rem 4rem;
-    gap: 2rem;
-    flex-direction: column;
-    background-color: #fff;
-    text-align: center;
-    transition: 0.3s;
-    z-index: 199;
-    margin-right: 1.5rem;
-  }
-
-  .buttons .contact-btn {
-    background-color: orange;
-  }
-
-  .buttons a {
-    color: hsl(212, 27%, 19%);
-  }
-
-  .buttons.active {
-    right: 0;
+  .navbar {
+    display: none;
   }
 
   .header .arrow-down {
