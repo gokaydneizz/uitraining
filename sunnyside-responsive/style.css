@@ -359,4 +359,7 @@ footer .social i:hover {
     z-index: 1;
     height: 3rem;
   }
+  .images {
+    grid-template-columns: 2fr 2fr;
+  }
 }
